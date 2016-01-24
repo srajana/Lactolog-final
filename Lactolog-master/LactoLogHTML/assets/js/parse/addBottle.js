@@ -1,12 +1,12 @@
 function addBottle(){
 	var Bottle = Parse.Object.extend("Bottle");
 	bottle = new Bottle();
-
+	
 	bottle.set("momToBabyId","eP9av3J5cN");
 	bottle.set("breastSide","left");
 	bottle.set("qtyInitial",20);
 	bottle.set("qtyCurrent",20);
-	bottle.set("qrCode", "123");
+	bottle.set("qrCode", "jiusfuyb12eehk");
 	that = this;
 	
 	bottle.save(null,{

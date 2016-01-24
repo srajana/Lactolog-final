@@ -37,6 +37,13 @@
 	<script type="text/javascript" src="assets/js/core/app.js"></script>
 	<script type="text/javascript" src="assets/js/pages/picker_date.js"></script>
 	<!-- /theme JS files -->
+	
+	<!-- /Parse JS files -->
+	<script src="http://www.parsecdn.com/js/parse-1.6.14.min.js"></script>
+	<script type="text/javascript" src="assets/js/parse/loadParse.js"></script>
+	<script type="text/javascript" src="assets/js/parse/signIn.js"></script>
+	<script type="text/javascript" src="assets/js/parse/addBottle.js"></script>
+	<!-- /parse JS files -->
 
 </head>
 
@@ -270,7 +277,7 @@
 									<!-- /basic inline radio group -->
 									<div class="text-right">
 									<button type="reset" class="btn btn-default" id="reset">Reset <i class="icon-reload-alt position-right"></i></button>
-									<button type="submit" class="btn btn-primary">Submit <i class="icon-arrow-right14 position-right"></i></button>
+									<button type="submit" onClick="addBottle()" class="btn btn-primary">Submit <i class="icon-arrow-right14 position-right"></i></button>
 								</div>
 							</div>
 						</div>
@@ -321,12 +328,7 @@
 					
 					<!-- QR code scanner -->
 
-					<!-- Footer -->
-					<div class="footer text-muted">
-						&copy; 2015. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
-					</div>
-					<!-- /footer -->
-
+					
 				</div>
 				<!-- /content area -->
 
