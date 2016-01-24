@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/core.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/media/fancybox.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/pages/gallery.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-default header-highlight">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index-mom.html"><img src="assets/images/logo_light.png" alt=""></a>
+
+			<ul class="nav navbar-nav visible-xs-block">
+				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+				<li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="navbar-collapse collapse" id="navbar-mobile">
+			<ul class="nav navbar-nav">
+				<li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
+
+				<li class="dropdown">
+
+						<div class="dropdown-content-footer">
+							<a href="#" data-popup="tooltip" title="All activity"><i class="icon-menu display-block"></i></a>
+						</div>
+				</li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="icon-bubbles4"></i>
+						<span class="visible-xs-inline-block position-right">Messages</span>
+						<span class="badge bg-warning-400">2</span>
+					</a>
+					
+					<div class="dropdown-menu dropdown-content width-350">
+						<div class="dropdown-content-heading">
+							Messages
+							<ul class="icons-list">
+								<li><a href="#"><i class="icon-compose"></i></a></li>
+							</ul>
+						</div>
+
+						<div class="dropdown-content-footer">
+							<a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>
+						</div>
+					</div>
+				</li>
+
+				<li class="dropdown dropdown-user">
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						<img src="assets/images/placeholder.jpg" alt="">
+						<span>Victoria</span>
+						<i class="caret"></i>
+					</a>
+
+					<ul class="dropdown-menu dropdown-menu-right">
+						<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+						<li><a href="#"><span class="badge bg-teal-400 pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+						<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content">
+
+			<!-- Main sidebar -->
+			<div class="sidebar sidebar-main">
+				<div class="sidebar-content">
+
+					<!-- User menu -->
+					<div class="sidebar-user">
+						<div class="category-content">
+							<div class="media">
+								<a href="#" class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></a>
+								<div class="media-body">
+									<span class="media-heading text-semibold">Victoria Baker</span>
+									<div class="text-size-mini text-muted">
+										<i class="icon-pin text-size-small"></i> &nbsp;Santa Ana, CA
+									</div>
+								</div>
+
+								<div class="media-right media-middle">
+									<ul class="icons-list">
+										<li>
+											<a href="#"><i class="icon-cog3"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /user menu -->
+
+
+					<!-- Main navigation -->
+					<div class="sidebar-category sidebar-category-visible">
+						<div class="category-content no-padding">
+							<ul class="navigation navigation-main navigation-accordion">
+
+								<!-- Main -->
+								<li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
+								<li><a href="index-mom.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+								
+								<!-- /main -->
+
+								<!-- Forms -->
+								<li class="navigation-header"><span>My Profile</span> <i class="icon-menu" title="Forms"></i></li>
+								
+								<li>
+									<a href="#"><i class="icon-select2"></i> <span>New Entry</span></a>
+									<ul>
+										<li><a href="picker_date.html">Add</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#"><i class="icon-pencil3"></i> <span>Personal Information</span></a>
+									<ul>
+										<li><a href="form_validation.html">View Profile</a></li>
+									</ul>
+								</li>
+								<!-- /forms -->
+
+								
+								<!-- Tables -->
+								<li class="navigation-header"><span>Log</span> <i class="icon-menu" title="Tables"></i></li>
+								
+								<li>
+									<a href="#"><i class="icon-versions"></i> <span>Responsive options</span></a>
+									<ul>
+										<li><a href="datatable_responsive.html">Responsive data tables</a></li>
+									</ul>
+								</li>
+								<!-- /tables -->
+
+								<!-- Page kits -->
+								<li class="navigation-header"><span>Gallery</span> <i class="icon-menu" title="Page kits"></i></li>
+								
+								<li>
+									<a href="#"><i class="icon-images2"></i> <span>Gallery</span></a>
+									<ul>
+										<li class="active"><a href="gallery_description.html">Media with description</a></li>
+									</ul>
+								</li>
+								<!-- /page kits -->
+
+							</ul>
+						</div>
+					</div>
+					<!-- /main navigation -->
+
+				</div>
+			</div>
+			<!-- /main sidebar -->
+
+
+			<!-- Main content -->
+			<div class="content-wrapper">
+
+				<!-- Content area -->
+				<div class="content">
+
+					<!-- Image grid -->
+					<h6 class="content-group text-semibold">
+						Image grid
+						<small class="display-block">Image grid with 4 - 2 - 1 columns</small>
+					</h6>
+
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">For ostrich much</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Some various less crept gecko the jeepers dear forewent far the ouch far a incompetent
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">An so vulgar</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Delightful unreserved impossible few estimating men favourable see entreaties propriety
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Not rapturous</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">He it otherwise</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Chapter too parties its letters nor. Cheerful but whatever ladyship disposed judgment us
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Unfeeling agreeable</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">So come must</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Do on unpleasing</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Demesne far hearted suppose venture excited see had has. Dependent extremely delivered by
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Yet joy exquisite</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Bed one supposing breakfast day fulfilled off depending questions. Whatever boy exertion
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Behind lovers</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Building mr concerns servants in he outlived am breeding. He so lain good miss when sell
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Whole every miles</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									How doubt yet again see son smart. While mirth large of on front. Ye he greater related yes
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Wished he entire</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Death weeks early had their and folly timed put. Hearted forbade on an village ye fifteen
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">He prevent request</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Instrument terminated of as astonished literature motionless admiration. The affection are
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Picture too and</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									On merits on so valley indeed assure of. Has add particular boisterous uncommonly are match
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Ten difficult resembled</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									Post no so what deal evil rent by real in. But her ready least set lived spite solid how men
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Same park bore</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									She offices for highest and replied one venture pasture. Applauded no in newspaper allowance
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img src="assets/images/placeholder.jpg" alt="">
+									<div class="caption-overflow">
+										<span>
+											<a href="assets/images/placeholder.jpg" data-popup="lightbox" class="btn border-white text-white btn-flat btn-icon btn-rounded"><i class="icon-plus3"></i></a>
+											<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+										</span>
+									</div>
+								</div>
+
+								<div class="caption">
+									<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">Warmth his law</a> <a href="#" class="text-muted"><i class="icon-download pull-right"></i></a></h6>
+									She offices for highest and replied venture pasture. Applauded discovery northward frequently
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /image grid -->
+
+
+					<!-- Footer -->
+					<div class="footer text-muted">
+						&copy; 2015. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>
